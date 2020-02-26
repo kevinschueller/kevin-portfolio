@@ -23,7 +23,7 @@ sections:
   title: Designer's Toolkit
   section_id: services
   component: ServicesBlock
-  subtitle: An optional subtitle of the section
+  subtitle: Tools I use and am an expert with
   serviceslist:
   - title: Service Title
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula,
