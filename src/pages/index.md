@@ -20,7 +20,7 @@ sections:
   view_all_url: portfolio/index.html
 - type: servicesblock
   template: servicesblock
-  title: What We Do
+  title: Designer's Toolkit
   section_id: services
   component: ServicesBlock
   subtitle: An optional subtitle of the section
