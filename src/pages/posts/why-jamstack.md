@@ -1,10 +1,10 @@
 ---
 template: post
-title: Why Jamstack?
+title: Why Jamstack? Is it the Future of Web Dev?
 subtitle: Why I decided to build my portfolio website and blog with Jamstack.
 date: 2020-02-27T12:02:17Z
-thumb_img_path: ''
-content_img_path: ''
+thumb_img_path: "/images/28801042828_e1f98acd90_o.jpg"
+content_img_path: "/images/28801042828_e1f98acd90_o.jpg"
 excerpt: ''
 
 ---
