@@ -63,7 +63,7 @@ sections:
       the Morgan's Pier website together and I was beyond pleased with his ideas and
       solutions as well as his turn-around time. The site was built on the SquareSpace
       platform, but Kevin was able to custom develop many design elements and features.
-      H was an absolute pleasure to work and I look forward to our next project together.
+      He was an absolute pleasure to work and I look forward to our next project together.
 - type: postsblock
   template: postsblock
   title: Latest from the Blog
