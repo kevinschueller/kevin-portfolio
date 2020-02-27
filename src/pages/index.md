@@ -31,9 +31,10 @@ sections:
   - title: Wireframing and Prototyping
     content: I've use Adobe Comp, Figma, Sketch, and Adobe XD to rapidly prototype
       designs and wireframes.
-  - title: Service title
-    content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-      non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  - title: HTML5, CSS, JavaScript
+    content: I'm an expert in HTML5, CSS, and I'm currently completing an advanced
+      online JavaScript course and have written extensive JQuery code. I've also worked
+      with other frameworks like React and Vue.
   - title: Service title
     content: Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis justo,
       sit amet condimentum lorem nibh vel quam. Duis consectetur lorem ipsum, non
