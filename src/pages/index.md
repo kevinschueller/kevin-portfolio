@@ -20,10 +20,10 @@ sections:
   view_all_url: portfolio/index.html
 - type: servicesblock
   template: servicesblock
-  title: Designer's Toolkit
+  title: Designer's skills
   section_id: services
   component: ServicesBlock
-  subtitle: Tools I use and am an expert with
+  subtitle: Tools and skills I am proficient in
   serviceslist:
   - title: Adobe Creative Suite
     content: I'm an expert in Photoshop, InDesign, AfterEffects, XD, Illustrator,
