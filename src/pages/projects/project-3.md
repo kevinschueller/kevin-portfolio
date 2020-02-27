@@ -7,3 +7,4 @@ content_img_path: "/images/Outdoor-Transfer-Billboard-Mockup.png"
 template: project
 
 ---
+Part of a large digital billboard redesign project that extended throughout undergraduate and graduate program admissions
