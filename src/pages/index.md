@@ -40,15 +40,23 @@ sections:
       and I strive to meet WCAG 2.0 and A11y guidelines.
 - type: testimonialsblock
   template: testimonialsblock
-  title: Testimonials
+  title: Recommendations
   section_id: testimonials
   component: TestimonialsBlock
   subtitle: An optional subtitle of the section
   testimonialslist:
-  - author: John Doe
-    avatar: images/john_doe.jpg
-    content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-      non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  - author: Kristin Norton
+    avatar: "/images/0.jpg"
+    content: 'I’ve worked with Kevin on some pretty big projects and I always walk
+      away impressed by what he does. His ability to take a large amount of content,
+      copy, and basically just ideas and put them all together to create web pages
+      that are not only highly functional but also beautiful is just amazing. He is
+      always open to suggestions and goes out of his way to explain why something
+      might not work instead of being quick to shoot it down or criticize like some
+      people might be apt to do. He is a friendly team player who always brings a
+      smile and positive vibe to the office. He’s also ready and willing to roll up
+      his creative sleeves when it comes time to collaborate and is a fountain of
+      good ideas. I love working with Kevin and any team would be lucky to have him. '
   - author: Jane Roe
     avatar: images/jane_roe.jpg
     content: Sed laoreet magna commodo libero euismod sodales. Nunc ac libero convallis,
