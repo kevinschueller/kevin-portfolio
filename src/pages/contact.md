@@ -9,4 +9,4 @@ subtitle: Reach out and see if I'm a good fit for your company!
 img_path: ''
 
 ---
-Hi there! Thank you so much for your interest in working together. Please fill the contact form below or send us an email at [example@example.com](mailto:example@example.com).
+Hi there! Thank you so much for your interest in working together. Please fill the contact form below or send me an email at [kevinschueller@gmail.com](mailto:kevinschueller@gmail.com).
