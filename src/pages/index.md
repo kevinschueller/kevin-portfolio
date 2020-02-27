@@ -35,10 +35,9 @@ sections:
     content: I'm an expert in HTML5, CSS, and I'm currently completing an advanced
       online JavaScript course and have written extensive JQuery code. I've also worked
       with other frameworks like React and Vue.
-  - title: Service title
-    content: Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis justo,
-      sit amet condimentum lorem nibh vel quam. Duis consectetur lorem ipsum, non
-      efficitur urna viverra et.
+  - title: Accessibility
+    content: Designing and developing with accessibility in mind is important to me
+      and I strive to meet WCAG 2.0 and A11y guidelines.
 - type: testimonialsblock
   template: testimonialsblock
   title: Testimonials
