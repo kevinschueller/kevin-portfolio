@@ -25,10 +25,9 @@ sections:
   component: ServicesBlock
   subtitle: Tools I use and am an expert with
   serviceslist:
-  - title: Service Title
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula,
-      cursus id molestie vel, maximus aliquet risus. Vivamus in nibh fringilla, fringilla
-      tortor at, pulvinar orci.
+  - title: Adobe Creative Suite
+    content: I'm an expert in Photoshop, InDesign, AfterEffects, XD, Illustrator,
+      and Animate.
   - title: Service Title
     content: 'Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
       a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
