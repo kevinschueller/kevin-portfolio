@@ -5,7 +5,9 @@ subtitle: Why I decided to build my portfolio website and blog with Jamstack.
 date: 2020-02-27T12:02:17Z
 thumb_img_path: "/images/28801042828_e1f98acd90_o.jpg"
 content_img_path: "/images/28801042828_e1f98acd90_o.jpg"
-excerpt: ''
+excerpt: Since the web is always changing and new technologies are constantly emerging,
+  my desire to learn these new technologies increases. I love learning new things,
+  and how else would I grow as a designer and developer?
 
 ---
 Since the web is always changing and new technologies are constantly emerging, my desire to learn these new technologies increases. I love learning new things, and how else would I grow as a designer and developer?
