@@ -1,6 +1,6 @@
 ---
 title: The Importance of Keeping the Client Involved in the Design Process
-date: 2019-03-27
+date: 2020-02-27T00:48:01Z
 thumb_img_path: "/images/1_pRWfaB6R0ZYlqv1ks4-grQ.jpeg"
 content_img_path: "/images/1_pRWfaB6R0ZYlqv1ks4-grQ-1.jpeg"
 excerpt: If you’re a designer, you already know that getting client feedback is a
