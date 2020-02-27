@@ -43,7 +43,7 @@ sections:
   title: Recommendations
   section_id: testimonials
   component: TestimonialsBlock
-  subtitle: An optional subtitle of the section
+  subtitle: ''
   testimonialslist:
   - author: Kristin Norton
     avatar: "/images/0.jpg"
