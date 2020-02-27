@@ -29,7 +29,7 @@ sections:
     content: I'm an expert in Photoshop, InDesign, AfterEffects, XD, Illustrator,
       and Animate.
   - title: Wireframing and Prototyping
-    content: I've use Adobe Comp, Figma, Sketch, and Adobe XD to rapidly prototype
+    content: I've used Adobe Comp, Figma, Sketch, and Adobe XD to rapidly prototype
       designs and wireframes.
   - title: HTML5, CSS, JavaScript
     content: I'm an expert in HTML5, CSS, and I'm currently completing an advanced
