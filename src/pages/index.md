@@ -28,10 +28,9 @@ sections:
   - title: Adobe Creative Suite
     content: I'm an expert in Photoshop, InDesign, AfterEffects, XD, Illustrator,
       and Animate.
-  - title: Service Title
-    content: 'Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-      a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
-      ut tellus. Vivamus rhoncus mattis varius. '
+  - title: Wireframing and Prototyping
+    content: I've use Adobe Comp, Figma, Sketch, and Adobe XD to rapidly prototype
+      designs and wireframes.
   - title: Service title
     content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
       non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
