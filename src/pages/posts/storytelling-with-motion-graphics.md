@@ -5,7 +5,9 @@ subtitle: How to tell a story with Motion Graphics
 date: 2020-03-01T05:00:00Z
 thumb_img_path: "/images/371811180_SITTING_MOBILE_WAVING_400px.gif"
 content_img_path: ''
-excerpt: ''
+excerpt: A relatively new way that I've found my storytelling voice is through video
+  and motion graphics. I find it exhilarating to breathe life and tell stories through
+  animations and moving graphics.
 
 ---
 ![](/images/371811180_SITTING_MOBILE_WAVING_400px-1.gif)
