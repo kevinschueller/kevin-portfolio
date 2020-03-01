@@ -7,4 +7,4 @@ thumb_img_path: "/images/Day-Of-Giving.png"
 content_img_path: "/images/Day-Of-Giving-1.png"
 
 ---
-Election themed website designed and built in WordPress for La Salle University's annual Day of Giving
+An election themed website designed and built in WordPress for La Salle University's annual Day of Giving.
