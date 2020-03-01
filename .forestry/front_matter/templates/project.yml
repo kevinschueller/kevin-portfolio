@@ -33,6 +33,7 @@ fields:
   config:
     required: true
 pages:
+- src/pages/projects/gritty-video-game.md
 - src/pages/projects/project-1.md
 - src/pages/projects/project-2.md
 - src/pages/projects/project-3.md
