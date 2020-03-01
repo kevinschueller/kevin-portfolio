@@ -45,6 +45,15 @@ sections:
   component: TestimonialsBlock
   subtitle: ''
   testimonialslist:
+  - author: Monica Marziani - Senior Director, User Experience Design and Strategy
+      at Korn Ferry
+    avatar: "/images/0 (1).jpg"
+    content: Kevin is a development rockstar! We recently worked on the redesign of
+      the Morgan's Pier website together and I was beyond pleased with his ideas and
+      solutions as well as his turn-around time. The site was built on the SquareSpace
+      platform, but Kevin was able to custom develop many design elements and features.
+      He was an absolute pleasure to work with and I look forward to our next project
+      together.
   - author: Kristin Norton - Nonprofit Communications Storyteller, Wordsmith
     avatar: "/images/0.jpg"
     content: 'I’ve worked with Kevin on some pretty big projects and I always walk
@@ -57,15 +66,6 @@ sections:
       smile and positive vibe to the office. He’s also ready and willing to roll up
       his creative sleeves when it comes time to collaborate and is a fountain of
       good ideas. I love working with Kevin and any team would be lucky to have him. '
-  - author: Monica Marziani - Senior Director, User Experience Design and Strategy
-      at Korn Ferry
-    avatar: "/images/0 (1).jpg"
-    content: Kevin is a development rockstar! We recently worked on the redesign of
-      the Morgan's Pier website together and I was beyond pleased with his ideas and
-      solutions as well as his turn-around time. The site was built on the SquareSpace
-      platform, but Kevin was able to custom develop many design elements and features.
-      He was an absolute pleasure to work with and I look forward to our next project
-      together.
 - type: postsblock
   template: postsblock
   title: Latest from the Blog
