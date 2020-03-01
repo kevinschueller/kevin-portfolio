@@ -45,7 +45,7 @@ sections:
   component: TestimonialsBlock
   subtitle: ''
   testimonialslist:
-  - author: Kristin Norton
+  - author: Kristin Norton - Nonprofit Communications Storyteller, Wordsmith
     avatar: "/images/0.jpg"
     content: 'I’ve worked with Kevin on some pretty big projects and I always walk
       away impressed by what he does. His ability to take a large amount of content,
