@@ -57,7 +57,8 @@ sections:
       smile and positive vibe to the office. He’s also ready and willing to roll up
       his creative sleeves when it comes time to collaborate and is a fountain of
       good ideas. I love working with Kevin and any team would be lucky to have him. '
-  - author: Monica Marziani
+  - author: Monica Marziani - Senior Director, User Experience Design and Strategy
+      at Korn Ferry
     avatar: "/images/0 (1).jpg"
     content: Kevin is a development rockstar! We recently worked on the redesign of
       the Morgan's Pier website together and I was beyond pleased with his ideas and
