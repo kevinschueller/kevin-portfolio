@@ -38,4 +38,5 @@ fields:
     required: true
 pages:
 - src/pages/posts/2019-03-27-why-fonts-matter.md
+- src/pages/posts/storytelling-with-motion-graphics.md
 - src/pages/posts/why-jamstack.md
