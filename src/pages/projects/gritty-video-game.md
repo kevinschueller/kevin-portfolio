@@ -7,7 +7,6 @@ thumb_img_path: "/images/gritty_0.gif"
 content_img_path: ''
 
 ---
-
 ![](/images/gritty_3.gif "Gameplay Demo")
 
-Created as a Senior Final Project for La Salle University's Digital Art and Multimedia Design Program
+Created as a Senior Final Project for La Salle University's Digital Art and Multimedia Design Program. Pixel art designed in Photoshop. Game built and programmed in PICO-8 Fantasy Game Console.
