@@ -7,4 +7,6 @@ thumb_img_path: "/images/day-of-giving-screen-1.png"
 content_img_path: ''
 
 ---
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/5d3sLH5Aeaw](https://www.youtube.com/embed/5d3sLH5Aeaw "https://www.youtube.com/embed/5d3sLH5Aeaw")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="[https://player.vimeo.com/video/397408379](https://player.vimeo.com/video/397408379 "https://player.vimeo.com/video/397408379")" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p><a href="[https://vimeo.com/397408379](https://vimeo.com/397408379 "https://vimeo.com/397408379")">La Salle&#039;s 7th Annual Day of Giving Hype Video</a> from <a href="[https://vimeo.com/user55399875](https://vimeo.com/user55399875 "https://vimeo.com/user55399875")">Kevin Schueller Jr.</a> on <a href="[https://vimeo.com](https://vimeo.com "https://vimeo.com")">Vimeo</a>.</p>
