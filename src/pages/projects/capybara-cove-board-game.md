@@ -7,4 +7,4 @@ thumb_img_path: "/images/img_7569.jpg"
 content_img_path: "/images/7f4b5239-de66-405e-bade-9b57b4391619.jpg"
 
 ---
-Designed over the course of a semester and fully playable, it was fun to learn game theory along the way!
+Illustrated and designed over the course of a semester and fully playable, it was fun to learn game theory along the way!
