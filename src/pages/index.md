@@ -6,8 +6,8 @@ sections:
   title: Hi, I'm Kevin Schueller
   section_id: hero
   component: HeroBlock
-  content: I'm a digital designer and web developer with over 10 years of experience
-    designing and developing interactive experiences.
+  content: I'm a designer and developer with over 10 years of experience making interactive
+    experiences and products.
 - type: portfolioblock
   template: portfolioblock
   title: Recent Work
