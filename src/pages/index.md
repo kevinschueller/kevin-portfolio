@@ -45,6 +45,12 @@ sections:
   component: TestimonialsBlock
   subtitle: ''
   testimonialslist:
+  - author: Geoffrey Beatty- Assistant Professor at La Salle University
+    avatar: "/images/0-1.jpg"
+    content: I've known Kevin as both a student and a co-worker. He is one of the
+      most talented students I've ever had the pleasure of working with. His designs
+      are matched by a tremendous work ethic and dedication to problem-solving. He
+      would be fantastic asset to any creative team.
   - author: Monica Marziani - Senior Director, User Experience Design and Strategy
       at Korn Ferry
     avatar: "/images/0 (1).jpg"
