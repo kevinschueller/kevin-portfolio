@@ -45,7 +45,7 @@ sections:
   component: TestimonialsBlock
   subtitle: ''
   testimonialslist:
-  - author: Geoffrey Beatty- Assistant Professor at La Salle University
+  - author: Geoffrey Beatty - Assistant Professor at La Salle University
     avatar: "/images/0-1.jpg"
     content: I've known Kevin as both a student and a co-worker. He is one of the
       most talented students I've ever had the pleasure of working with. His designs
