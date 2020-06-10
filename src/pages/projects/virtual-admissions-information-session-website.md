@@ -9,4 +9,4 @@ thumb_img_path: "/images/screenshot.png"
 content_img_path: "/images/screenshot.png"
 
 ---
-A brand new design and interactive webite build that was executed in a week due to COVID-19 pressures to move essential marketing events remote. The website helped boost attendance and convert interested potential students to enrolled students. Built on WordPress as a theme and customized with plugins and custom post types.
+A brand new design and interactive webite build that was designed and executed in a week with a two person team due to COVID-19 pressures to move essential marketing events remote. The website helped boost attendance and convert interested potential students to enrolled students. Built on WordPress as a theme and customized with plugins and custom post types.
