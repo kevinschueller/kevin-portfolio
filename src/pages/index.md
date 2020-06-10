@@ -45,6 +45,9 @@ sections:
   component: TestimonialsBlock
   subtitle: ''
   testimonialslist:
+  - author: Shea Wright- Digital Content Strategist at La Salle University
+    avatar: ''
+    content: ''
   - author: Geoffrey Beatty- Assistant Professor at La Salle University
     avatar: "/images/0-1.jpg"
     content: I've known Kevin as both a student and a co-worker. He is one of the
@@ -66,12 +69,11 @@ sections:
       away impressed by what he does. His ability to take a large amount of content,
       copy, and basically just ideas and put them all together to create web pages
       that are not only highly functional but also beautiful is just amazing. He is
-      always open to suggestions and goes out of his way to explain why something
-      might not work instead of being quick to shoot it down or criticize like some
-      people might be apt to do. He is a friendly team player who always brings a
-      smile and positive vibe to the office. He’s also ready and willing to roll up
-      his creative sleeves when it comes time to collaborate and is a fountain of
-      good ideas. I love working with Kevin and any team would be lucky to have him. '
+      always open to suggestions and criticism. He is a friendly team player who always
+      brings a smile and positive vibe to the office. He’s also ready and willing
+      to roll up his creative sleeves when it comes time to collaborate and is a fountain
+      of good ideas. I love working with Kevin and any team would be lucky to have
+      him. '
 - type: postsblock
   template: postsblock
   title: Latest from the Blog
