@@ -47,7 +47,8 @@ sections:
   testimonialslist:
   - author: Shea Wright- Digital Content Strategist at La Salle University
     avatar: ''
-    content: ''
+    content: Kevin is an amazing graphic designer. He is a great talent to work with.
+      I truly enjoyed working with him on numerous projects for social media.
   - author: Geoffrey Beatty- Assistant Professor at La Salle University
     avatar: "/images/0-1.jpg"
     content: I've known Kevin as both a student and a co-worker. He is one of the
