@@ -47,11 +47,10 @@ sections:
   testimonialslist:
   - author: Meg Ryan - Executive Editor at Ryan Editorial Design Remove I worked with
       Kevin as a colleague at La Salle University, and I later brought him in to work
-      on print publishing projects for my business. Kevin has a design-oriented, creative
-      mind, cares deeply about both the process and the product, and is conscientious
-      from a project's launch.
+      on print publishing projects for my business.
     avatar: "/images/0-1-1.jpg"
-    content: ''
+    content: Kevin has a design-oriented, creative mind, cares deeply about both the
+      process and the product, and is conscientious from a project's launch.
   - author: Geoffrey Beatty - Assistant Professor at La Salle University
     avatar: "/images/0-1.jpg"
     content: I've known Kevin as both a student and a co-worker. He is one of the
