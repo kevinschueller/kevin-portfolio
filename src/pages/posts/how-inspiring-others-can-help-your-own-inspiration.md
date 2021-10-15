@@ -1,9 +1,9 @@
 ---
 template: post
-title: How Inspiring Others Can Propel Your Own Inspiration
+title: How Inspiring Others Can PropelYour Own Inspiration
 subtitle: It's mutually beneficial to share your experiences and knowlege with those
   who are interested.
-date: 2020-06-10T04:00:00Z
+date: 2020-06-10T04:00:00.000+00:00
 thumb_img_path: "/images/img_0924-1.jpg"
 content_img_path: "/images/img_0925.jpg"
 excerpt: ''
