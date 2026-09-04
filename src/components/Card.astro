@@ -1,0 +1,13 @@
+---
+const { project } = Astro.props;
+const href = `/projects/${project.id}/`;
+---
+<article class="card">
+  {project.data.thumb && (
+    <img class="card-media" src={project.data.thumb} alt={project.data.title} loading="lazy" />
+  )}
+  <div class="card-body">
+    <h3><a href={href}>{project.data.title}</a></h3>
+    {project.data.subtitle && <p>{project.data.subtitle}</p>}
+  </div>
+</article>

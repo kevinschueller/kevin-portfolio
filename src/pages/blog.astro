@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<Base title="Blog" description="Writing by Kevin Schueller on design, development and the web.">
+  <section class="page-hero">
+    <span class="hero-kicker">Blog</span>
+    <h1>Writing</h1>
+    <p>Notes on design, development, and building for the web.</p>
+  </section>
+  <section class="section">
+    <div class="grid grid-2">
+      {posts.map((p) => (
+        <article class="card">
+          {p.data.thumb && <img class="card-media" src={p.data.thumb} alt="" loading="lazy" />}
+          <div class="card-body">
+            <span class="card-date">{p.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            <h3><a href={`/posts/${p.id}/`}>{p.data.title}</a></h3>
+            <p>{p.data.excerpt || p.data.subtitle}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>

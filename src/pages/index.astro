@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import site from '../data/site.json';
+import { getCollection } from 'astro:content';
+
+const projects = (await getCollection('projects'))
+  .sort((a, b) => (b.data.pubDate?.getTime() ?? 0) - (a.data.pubDate?.getTime() ?? 0));
+const featured = projects.slice(0, site.portfolioSection.num);
+const posts = (await getCollection('posts'))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, site.postsSection.num);
+---
+<Base>
+  <section class="hero">
+    <span class="hero-kicker">Designer &amp; Developer</span>
+    <h1>Hi, I'm <em>Kevin</em>.<br />I build engaging digital experiences.</h1>
+    <p class="lede">{site.hero.content}</p>
+    <a class="btn btn-primary" href="/portfolio/">View my work</a>
+    <a class="btn btn-ghost" href="/contact/">Get in touch</a>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-head">
+      <div>
+        <h2><span class="section-index">01</span>{site.portfolioSection.title}</h2>
+        <p>{site.portfolioSection.subtitle}</p>
+      </div>
+      <a href="/portfolio/">View all →</a>
+    </div>
+    <div class="grid grid-3">
+      {featured.map((p) => <Card project={p} />)}
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="section-head">
+      <div>
+        <h2><span class="section-index">02</span>Designer's skills</h2>
+        <p>Tools and skills I am proficient in</p>
+      </div>
+    </div>
+    <div class="grid grid-2">
+      {site.services.map((s, i) => (
+        <div class="card" style="padding:1.6rem;">
+          <div class="service-num">{String(i + 1).padStart(2, '0')}</div>
+          <h3>{s.title}</h3>
+          <p>{s.content}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="section-head">
+      <div>
+        <h2><span class="section-index">03</span>Recommendations</h2>
+      </div>
+    </div>
+    <div class="grid grid-2">
+      {site.testimonials.map((t) => (
+        <figure class="testimonial" style="margin:0;">
+          <div class="testimonial-head">
+            <img class="testimonial-avatar" src={t.avatar} alt={`Photo of ${t.author}`} loading="lazy" width="48" height="48" />
+            <figcaption class="testimonial-author">{t.author}</figcaption>
+          </div>
+          <blockquote>{t.content}</blockquote>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <div class="section-head">
+      <div>
+        <h2><span class="section-index">04</span>Latest from the Blog</h2>
+      </div>
+      <a href="/blog/">View blog →</a>
+    </div>
+    <div class="grid grid-2">
+      {posts.map((p) => (
+        <article class="card">
+          {p.data.thumb && <img class="card-media" src={p.data.thumb} alt="" loading="lazy" />}
+          <div class="card-body">
+            <span class="card-date">{p.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            <h3><a href={`/posts/${p.id}/`}>{p.data.title}</a></h3>
+            <p>{p.data.excerpt}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section-head">
+      <div>
+        <h2><span class="section-index">05</span>Contact Me</h2>
+        <p>Get in touch!</p>
+      </div>
+    </div>
+    <p style="max-width:34rem;">The fastest way to reach me is email —
+      <a href="mailto:kevinschueller@gmail.com">kevinschueller@gmail.com</a> — or use the form below.</p>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
+      <input type="hidden" name="form-name" value="contact" />
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <div><label for="name">Name</label><input id="name" name="name" type="text" required /></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+      <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+      <div><button class="btn btn-primary" type="submit">Send message</button></div>
+    </form>
+  </section>
+</Base>

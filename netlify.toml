@@ -1,3 +1,64 @@
 [build]
-publish = "public"
-command = "./stackbit-build.sh"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# ------------------------------------
+# Redirects: legacy Gatsby/Stackbit URLs -> Astro slugs
+# ------------------------------------
+
+[[redirects]]
+from = "/posts/2019-03-27-why-fonts-matter/"
+to = "/posts/why-fonts-matter/"
+status = 301
+
+[[redirects]]
+from = "/posts/how-inspiring-others-can-help-your-own-inspiration/"
+to = "/posts/how-inspiring-others-can-propel-your-own-inspiration/"
+status = 301
+
+[[redirects]]
+from = "/posts/why-jamstack/"
+to = "/posts/why-jamstack-is-it-the-future-of-web-dev/"
+status = 301
+
+# projects (old file-name slugs -> title slugs)
+[[redirects]]
+from = "/projects/project-1/"
+to = "/projects/homepage-design-for-la-salle-university/"
+status = 301
+
+[[redirects]]
+from = "/projects/project-2/"
+to = "/projects/admissions-homepage-design-for-la-salle-university/"
+status = 301
+
+[[redirects]]
+from = "/projects/project-3/"
+to = "/projects/transfer-admissions-billboard-for-la-salle-university/"
+status = 301
+
+[[redirects]]
+from = "/projects/gritty-video-game/"
+to = "/projects/gritty-road-video-game/"
+status = 301
+
+[[redirects]]
+from = "/projects/la-salle-day-of-giving-2016/"
+to = "/projects/la-salle-university-day-of-giving-2016/"
+status = 301
+
+# security & cache headers
+[[headers]]
+for = "/*"
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+for = "/images/*"
+[headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
