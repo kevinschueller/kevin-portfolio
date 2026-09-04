@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Contact" description="Get in touch with Kevin Schueller.">
+  <section class="page-hero">
+    <span class="hero-kicker">Contact</span>
+    <h1>Get in touch</h1>
+    <p>Reach out and see if I'm a good fit for your company!</p>
+  </section>
+  <section class="section">
+    <div class="prose" style="margin:0 0 2rem;">
+      <p>Hi there! Thank you so much for your interest in working together. Please fill the contact form below or send me an email at <a href="mailto:kevinschueller@gmail.com">kevinschueller@gmail.com</a>.</p>
+    </div>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
+      <input type="hidden" name="form-name" value="contact" />
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <div><label for="name">Name</label><input id="name" name="name" type="text" required /></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+      <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+      <div><button class="btn btn-primary" type="submit">Send message</button></div>
+    </form>
+  </section>
+</Base>

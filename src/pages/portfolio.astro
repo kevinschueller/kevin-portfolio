@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const projects = (await getCollection('projects'))
+  .sort((a, b) => (b.data.pubDate?.getTime() ?? 0) - (a.data.pubDate?.getTime() ?? 0));
+---
+<Base title="Portfolio" description="Selected projects by Kevin Schueller — web, interactive, print and game design.">
+  <section class="page-hero">
+    <span class="hero-kicker">Portfolio</span>
+    <h1>Selected work</h1>
+    <p>Web, interactive and print projects — designed and built end to end.</p>
+  </section>
+  <section class="section">
+    <div class="grid grid-3">
+      {projects.map((p) => <Card project={p} />)}
+    </div>
+  </section>
+</Base>

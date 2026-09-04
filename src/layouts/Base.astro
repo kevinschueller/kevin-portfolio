@@ -1,0 +1,52 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/fraunces';
+import '../styles/global.css';
+
+const { title, description } = Astro.props;
+const siteName = 'Kevin Schueller';
+const fullTitle = title ? `${title} — ${siteName}` : `${siteName} — Designer & Developer`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description ?? "Designer & developer with over 10 years of experience making interactive experiences and products."} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Kevin Schueller — Blog" href="/rss.xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description ?? "Designer & developer."} />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0e0f13" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">kevin<span class="brand-dot">·</span>schueller</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
+          <a href="/portfolio/" class={Astro.url.pathname.startsWith('/portfolio') ? 'active' : ''}>Portfolio</a>
+          <a href="/blog/" class={Astro.url.pathname.startsWith('/blog') || Astro.url.pathname.startsWith('/posts') ? 'active' : ''}>Blog</a>
+          <a href="/about/" class={Astro.url.pathname.startsWith('/about') ? 'active' : ''}>About</a>
+          <a href="/contact/" class={Astro.url.pathname.startsWith('/contact') ? 'active' : ''}>Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span>© {new Date().getFullYear()} Kevin Schueller</span>
+        <span class="footer-links">
+          <a href="mailto:kevinschueller@gmail.com">kevinschueller@gmail.com</a>
+          <a href="/rss.xml">RSS</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

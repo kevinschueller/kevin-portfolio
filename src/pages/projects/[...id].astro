@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const fmtDate = (d) => d?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<Base title={project.data.title} description={project.data.subtitle || project.data.title}>
+  <article class="prose" style="padding-top:3.5rem;">
+    <div class="prose-meta">
+      <span class="tag">Project</span>
+      {project.data.pubDate && <span>{fmtDate(project.data.pubDate)}</span>}
+    </div>
+    <h1 class="article-title">{project.data.title}</h1>
+    {project.data.subtitle && <p class="article-subtitle">{project.data.subtitle}</p>}
+    {project.data.contentImg && (
+      <img class="article-hero" src={project.data.contentImg} alt={project.data.title} />
+    )}
+    <Content />
+  </article>
+</Base>
